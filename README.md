@@ -4,6 +4,12 @@ Portafolio web de **Johan Serrano**, desarrollador de software junior con enfoqu
 
 El sitio presenta perfil profesional, stack técnico, proyectos destacados y medios de contacto en una interfaz responsive y accesible.
 
+## 🌐 Enlaces públicos
+
+- **Portafolio:** https://johanserrano200613.github.io/portafolio/
+- **CV ATS (PDF):** https://johanserrano200613.github.io/portafolio/assets/Johan_Serrano_CV_ATS.pdf
+- **GitHub:** https://github.com/johanserrano200613
+
 ## 🛠️ Tecnologías
 
 - HTML5
