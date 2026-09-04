@@ -8,6 +8,8 @@
   <meta property="og:title" content="Johan Serrano | Junior Software Developer">
   <meta property="og:description" content="Backend, automatización, APIs, bases de datos e integración de sistemas.">
   <meta property="og:type" content="website">
+  <meta property="og:url" content="https://johanserrano200613.github.io/portafolio/">
+  <link rel="canonical" href="https://johanserrano200613.github.io/portafolio/">
   <title>Johan Serrano | Junior Software Developer</title>
   <style>
     :root{
@@ -54,6 +56,17 @@
     @media(max-width:900px){.navlinks{position:absolute;display:none;top:66px;left:20px;right:20px;flex-direction:column;align-items:stretch;padding:12px;background:#fff;border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow)}.navlinks.open{display:flex}.navlinks a{min-height:44px}.navlinks .cv{margin-left:0}.menu{display:block}.hero-grid,.section-head,.about,.contact{grid-template-columns:1fr}.hero-grid{gap:38px}.profile{max-width:440px}.section-head{gap:0}.section-head p{margin-top:0}.skills{grid-template-columns:repeat(2,1fr)}.project{grid-template-columns:150px 1fr}.project-links{grid-column:2;flex-direction:row}.trust-grid{grid-template-columns:repeat(2,1fr)}.trust-item:nth-child(2){border-right:0}.trust-item:nth-child(-n+2){border-bottom:1px solid var(--line)}}
     @media(max-width:620px){body{overflow-x:hidden}.wrap{width:min(100% - 28px,1140px)}nav{height:66px}.brand small{display:none}.hero{padding:50px 0 45px}h1{font-size:clamp(2.65rem,13vw,4.2rem)}.actions .btn{width:100%}.skills,.principles,.proof{grid-template-columns:1fr}.project{grid-template-columns:1fr;gap:16px;padding:18px}.project-visual{height:145px}.project-links{grid-column:1;flex-direction:row}.trust-grid{grid-template-columns:1fr}.trust-item{border-right:0!important;border-bottom:1px solid var(--line)}.trust-item:last-child{border-bottom:0}.section{padding:68px 0}.contact{border-radius:22px}.footer-row{display:block}.footer-row a{display:inline-block;margin-top:7px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
+    /* Editorial systems direction: expressive, fast and recruiter-readable. */
+    :root{--bg:#f2efe6;--surface:#fbfaf5;--soft:#e8e5dc;--text:#11120f;--muted:#5b5e55;--line:#b9b9af;--blue:#1855d6;--blue-dark:#123fa0;--green:#16704d;--acid:#caf04b;--coral:#ff6948;--shadow:12px 12px 0 #11120f;--r:0}
+    body{font-family:Arial,Helvetica,sans-serif}main{display:flex;flex-direction:column}.hero{order:1}.trust{order:2}#proyectos{order:3}#perfil{order:4}#capacidades{order:5}#contacto{order:6}
+    .nav-shell{border-bottom:1px solid var(--text);background:rgba(242,239,230,.94)}.mark{border-radius:0;background:var(--blue);box-shadow:4px 4px 0 var(--text)}.navlinks a{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;text-transform:uppercase;font-size:.7rem;letter-spacing:.05em}.navlinks .cv{border-radius:0;background:var(--text)}
+    .hero{min-height:calc(100svh - 74px);padding:0;border-bottom:1px solid var(--text)}.hero:after{display:none}.hero>.wrap{width:100%;max-width:none}.hero-grid{grid-template-columns:minmax(0,1.2fr) minmax(360px,.8fr);gap:0}.hero-grid>div:first-child{padding:clamp(58px,7vw,90px) max(24px,calc((100vw - 1140px)/2 + 20px));border-right:1px solid var(--text);display:flex;flex-direction:column;justify-content:center}.eyebrow{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;color:var(--text)}h1{font-size:clamp(3.4rem,7.3vw,7.7rem);line-height:.84;max-width:900px}h1 span{color:var(--blue)}.btn{border-radius:0;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;text-transform:uppercase;font-size:.72rem}.btn.blue{background:var(--text);border-color:var(--text)}.btn:hover{box-shadow:5px 5px 0 var(--acid);transform:translate(-2px,-2px)}
+    .profile{position:relative;min-height:610px;border:0;border-radius:0;background:var(--blue);color:#fff;box-shadow:none;overflow:hidden;display:grid;place-items:center;padding:48px}.profile:before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.16) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.16) 1px,transparent 1px);background-size:46px 46px}.portrait{display:none}.system-map{position:relative;width:min(410px,100%);aspect-ratio:1;border:1px solid rgba(255,255,255,.7);border-radius:50%;animation:rotate 24s linear infinite}.system-map:before,.system-map:after{content:"";position:absolute;width:16px;height:16px;border:1px solid var(--text);background:var(--acid);border-radius:50%}.system-map:before{left:12%;top:16%}.system-map:after{right:4%;bottom:26%;background:var(--coral)}.system-core{position:absolute;inset:29%;background:var(--bg);border:1px solid var(--text);color:var(--text);display:grid;place-items:center;text-align:center;box-shadow:10px 10px 0 var(--text);animation:counter 24s linear infinite}.system-core b{font-size:clamp(2.7rem,5vw,4.5rem);letter-spacing:-.08em}.system-core small{display:block;font:700 .58rem ui-monospace,monospace;text-transform:uppercase}.system-node{position:absolute;background:var(--surface);color:var(--text);border:1px solid var(--text);padding:9px 11px;font:700 .58rem ui-monospace,monospace;text-transform:uppercase;box-shadow:4px 4px 0 var(--text);animation:counter 24s linear infinite}.sn1{top:4%;left:1%}.sn2{top:18%;right:-3%}.sn3{bottom:8%;left:-2%}.sn4{bottom:2%;right:4%}@keyframes rotate{to{transform:rotate(360deg)}}@keyframes counter{to{transform:rotate(-360deg)}}
+    .trust{border-bottom:1px solid var(--text);background:var(--acid)}.trust-item{border-color:var(--text)}.section{padding:105px 0;border-bottom:1px solid var(--text)}.section.white{background:var(--surface);border-color:var(--text)}.kicker,.section-head .kicker{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;color:var(--blue)}.section-head h2{font-size:clamp(2.7rem,5.6vw,5.7rem);line-height:.9}.section-head p{font-size:1.08rem}
+    .projects{gap:1px;background:var(--text);border:1px solid var(--text)}.project{border:0;border-radius:0;min-height:270px;background:var(--surface);grid-template-columns:230px 1fr auto}.project:hover{transform:none;box-shadow:none;border:0}.project-visual{height:100%;min-height:220px;border-radius:0}.p1{background:var(--coral)}.p2{background:var(--acid);color:var(--text)}.p3{background:#aca5ff}.p4{background:#65d7ea;color:var(--text)}.project-visual:before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(17,18,15,.18) 1px,transparent 1px),linear-gradient(90deg,rgba(17,18,15,.18) 1px,transparent 1px);background-size:34px 34px}.project-visual small,.flow{position:relative}.flow i{border-radius:0;border-color:var(--text);background:var(--surface)}.project-copy h3{font-size:1.65rem}.label,.chip{border-radius:0}.project-links a{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.panel,.skill,.principle,.proof-card,.contact,.contact-item{border-radius:0}.contact{background:var(--blue);box-shadow:12px 12px 0 var(--text)}.contact .btn{background:var(--acid);color:var(--text);border-color:var(--text)}
+    @media(max-width:900px){.hero-grid{grid-template-columns:1fr}.hero-grid>div:first-child{border-right:0;border-bottom:1px solid var(--text);padding:58px 24px}.profile{min-height:500px}.project{grid-template-columns:170px 1fr}.project-links{grid-column:2}.system-map{width:360px}}
+    @media(max-width:620px){.wrap{width:min(calc(100% - 28px),1140px)}h1{font-size:clamp(3rem,15vw,4.6rem)}.hero-grid>div:first-child{padding:48px 14px}.profile{min-height:410px;padding:30px}.system-map{width:min(310px,86vw)}.project{grid-template-columns:1fr}.project-visual{min-height:190px}.project-links{grid-column:1}.section{padding:75px 0}}
+    @media(prefers-reduced-motion:reduce){.system-map,.system-core,.system-node{animation:none}}
   </style>
 </head>
 <body>
@@ -63,8 +76,8 @@
     <a class="brand" href="#inicio"><span class="mark">JS</span><span><b>Johan Serrano</b><small>Junior Software Developer</small></span></a>
     <button class="menu" type="button" aria-controls="navlinks" aria-expanded="false" aria-label="Abrir menú">☰</button>
     <div class="navlinks" id="navlinks">
-      <a href="#perfil">Perfil</a><a href="#capacidades">Capacidades</a><a href="#proyectos">Proyectos</a><a href="#contacto">Contacto</a>
-      <a class="cv" href="assets/Johan_Serrano_CV_ATS.pdf" target="_blank" rel="noopener">Descargar CV</a>
+      <a href="#proyectos">Proyectos</a><a href="#perfil">Perfil</a><a href="#capacidades">Tecnologías</a><a href="#contacto">Contacto</a>
+      <a class="cv" href="assets/Johan_Serrano_CV_ATS.pdf" download>CV ↓</a>
     </div>
   </nav>
 </header>
@@ -72,24 +85,16 @@
   <section class="hero" id="inicio"><div class="wrap hero-grid">
     <div>
       <span class="eyebrow">Backend · Automatización · Integraciones</span>
-      <h1>Software que conecta <span>ideas y procesos.</span></h1>
-      <p class="lead">Soy Johan Serrano, desarrollador de software junior. Construyo soluciones con Python, JavaScript y SQL, integrando APIs, automatizaciones y servicios para convertir procesos manuales en flujos claros y funcionales.</p>
+      <h1>Desarrollador junior. <span>Backend y automatización.</span></h1>
+      <p class="lead">Construyo aplicaciones e integraciones con Python, JavaScript, SQL, APIs y n8n. Conecto interfaces, datos y servicios para convertir procesos manuales en flujos funcionales.</p>
       <div class="actions">
         <a class="btn blue" href="#proyectos">Ver proyectos ↓</a>
-        <a class="btn alt" href="assets/Johan_Serrano_CV_ATS.pdf" target="_blank" rel="noopener">Descargar CV ATS</a>
+        <a class="btn alt" href="assets/Johan_Serrano_CV_ATS.pdf" download>Descargar CV</a>
         <a class="btn alt" href="https://github.com/johanserrano200613" target="_blank" rel="noopener">GitHub ↗</a>
       </div>
     </div>
-    <aside class="profile" aria-label="Resumen profesional">
-      <div class="portrait"><img src="https://raw.githubusercontent.com/johanserrano200613/johanserrano200613/main/assets/profile/johan-serrano.jpg" alt="Johan Serrano"></div>
-      <span class="availability"><i class="dot"></i>Disponible para oportunidades junior</span>
-      <h2>Junior Software Developer</h2>
-      <p>Backend, automatización e integración de sistemas.</p>
-      <div class="profile-facts">
-        <div class="fact"><span>Ubicación</span><b>Bucaramanga, Colombia</b></div>
-        <div class="fact"><span>Idiomas</span><b>Español · Inglés B1.2</b></div>
-        <div class="fact"><span>Stack base</span><b>Python · JS · SQL</b></div>
-      </div>
+    <aside class="profile" aria-label="Diagrama visual de capacidades">
+      <div class="system-map" aria-hidden="true"><div class="system-core"><div><b>JS</b><small>build · connect · automate</small></div></div><span class="system-node sn1">Interface</span><span class="system-node sn2">API</span><span class="system-node sn3">Data</span><span class="system-node sn4">Workflow</span></div>
     </aside>
   </div></section>
 
