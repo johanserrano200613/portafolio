@@ -1,31 +1,38 @@
-# 💼 Portafolio profesional — Johan Serrano
+# Portafolio profesional — Johan Serrano
 
-Portafolio web de **Johan Serrano**, desarrollador de software junior con enfoque en backend, automatización e integración de sistemas.
+Portafolio web orientado a procesos de empleabilidad para un perfil de **Software Developer junior** con foco en backend, APIs, bases de datos e integración de sistemas.
 
-El sitio presenta perfil profesional, stack técnico, proyectos destacados y medios de contacto en una interfaz responsive y accesible.
-
-## 🌐 Enlaces públicos
+## Enlaces
 
 - **Portafolio:** https://johanserrano200613.github.io/portafolio/
-- **CV ATS (PDF):** https://johanserrano200613.github.io/portafolio/assets/Johan_Serrano_CV_ATS.pdf
+- **Hoja de vida (PDF):** https://johanserrano200613.github.io/portafolio/assets/Johan_Serrano_CV_ATS.pdf
 - **GitHub:** https://github.com/johanserrano200613
 
-## 🛠️ Tecnologías
+## Qué muestra el portafolio
+
+- Perfil profesional y disponibilidad.
+- Proyectos seleccionados por evidencia técnica.
+- Capacidades de backend, datos, testing, Docker e integración.
+- Aprendizajes recientes de desarrollo de software.
+- Acceso visible para **ver o descargar la hoja de vida**.
+
+## Proyectos destacados
+
+1. **Happy Day MVP** — FastAPI, SQLAlchemy, PostgreSQL, Alembic, Pytest y Docker.
+2. **Tutor de Estudio con IA** — API Python/FastAPI, Flutter, OCR, persistencia y pruebas automatizadas.
+3. **E-commerce SQL2** — MySQL, consultas avanzadas, funciones, triggers, eventos y procedimientos almacenados.
+4. **TalentFlow AI** — n8n, JavaScript, OCR, LLM, Google APIs, webhooks y Telegram.
+
+## Tecnologías del sitio
 
 - HTML5
 - CSS3
 - JavaScript
-- Responsive Design
-- Accesibilidad web
+- Diseño responsive
+- Accesibilidad básica
+- GitHub Pages
 
-## 🚀 Proyectos destacados incluidos
-
-- TalentFlow AI
-- Préstamo de Equipos Campuslands
-- Plataforma de Exámenes
-- Consumo de REST API
-
-## ▶️ Ejecutar localmente
+## Ejecutar localmente
 
 ```bash
 python -m http.server 5500
@@ -37,20 +44,9 @@ Luego abre:
 http://localhost:5500
 ```
 
-## 📱 Responsive
-
-El diseño fue preparado para funcionar en:
-
-- móviles pequeños;
-- tablets;
-- escritorio;
-- pantallas anchas.
-
-Incluye menú móvil, navegación por teclado, estados de foco y soporte para `prefers-reduced-motion`.
-
-## 📬 Contacto
+## Contacto
 
 **Johan Serrano**  
-Junior Software Developer · Backend · Automation  
+Software Developer · Backend · APIs · Data · Automation  
 Bucaramanga, Colombia  
 [johanserrano200613@gmail.com](mailto:johanserrano200613@gmail.com)
