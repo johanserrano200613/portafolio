@@ -24,6 +24,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Generate CV PDF
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p assets
+          CHROME="$(command -v google-chrome || command -v google-chrome-stable || command -v chromium || command -v chromium-browser || true)"
+          if [ -z "$CHROME" ]; then
+            echo "No Chrome/Chromium executable found on runner"
+            exit 1
+          fi
+          "$CHROME" --headless --no-sandbox --disable-gpu --no-pdf-header-footer             --print-to-pdf="$GITHUB_WORKSPACE/assets/Johan_Serrano_Hoja_de_Vida_2026.pdf"             "file://$GITHUB_WORKSPACE/cv.html"
+          test -s "$GITHUB_WORKSPACE/assets/Johan_Serrano_Hoja_de_Vida_2026.pdf"
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
         with:
