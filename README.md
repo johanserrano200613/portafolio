@@ -5,7 +5,7 @@ Portafolio web orientado a procesos de empleabilidad para un perfil de **Softwar
 ## Enlaces
 
 - **Portafolio:** https://johanserrano200613.github.io/portafolio/
-- **Hoja de vida (PDF):** https://johanserrano200613.github.io/portafolio/assets/Johan_Serrano_CV_ATS.pdf
+- **Hoja de vida (PDF):** https://johanserrano200613.github.io/portafolio/assets/Johan_Serrano_Hoja_de_Vida_2026.pdf
 - **GitHub:** https://github.com/johanserrano200613
 
 ## Qué muestra el portafolio
